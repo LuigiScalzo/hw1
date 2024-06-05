@@ -1,0 +1,104 @@
+
+html,body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    height: 100%;
+}
+
+body{
+    font-size: 15px;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/664/888/desktop-wallpaper-backgrounds-gothic-group-with-80-items-background-gotik.jpg);
+    background-size:cover; /* Adatta l'immagine allo schermo */
+    background-position: center; /* Posizione centrale dell'immagine */
+    background-repeat: no-repeat;
+}
+
+
+header{
+    height: 20%;
+}
+
+
+
+
+#tastoHome{
+    font-family: "Almendra SC", serif;
+    position: relative;
+    top: 5px;
+    left:50%;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 0;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-radius: 9px;
+    border-color: white;
+}
+
+#tastoHome:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#testo h1{
+    color:white;
+    left:20%;
+    position: relative;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+#testo h2{
+    color:white;
+    left:40%;
+    bottom:20px;
+    position: relative;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+#ricerca_video {
+    position: relative;
+    font-family: "Almendra SC", serif;
+    color: white;
+    width:20%;
+    left:43%;
+    top:50px;
+    height: 10%;
+}
+
+
+
+#second_view_search img {
+    max-width: 100%;
+}
+
+#second_view_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    top:100px;
+    max-height: max-content;  
+}
+
+#second_view_search .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+}

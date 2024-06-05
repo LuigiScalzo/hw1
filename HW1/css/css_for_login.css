@@ -1,0 +1,149 @@
+#body_login {
+  margin: 0;
+  background-image: url(https://i.ytimg.com/vi/YbPoDy3HdUA/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#intro_Login {
+  display: flex;
+  color: white;
+  font-family: "Almendra SC", serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+  width: 40%;
+  position: relative;
+  top: 25%;
+  left: 7%;
+}
+
+#intro_Login p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  position: relative;
+  bottom: 20px;
+}
+
+#login {
+  width: 30%;
+  height: 60%;
+  position: relative;
+  left: 60%;
+  flex-direction: column;
+  display: flex;
+  background-color: rgba(136, 191, 255, 0.274);
+  bottom: 6%;
+}
+
+#tasto_accedi {
+  width: 40%;
+  background-color: darkgrey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Almendra SC", serif;
+  font-size: 30px;
+  position: relative;
+  left: 30%;
+  top: 5%;
+}
+
+#tasto_accedi:hover {
+  background-color: rgba(4, 4, 255, 0.774);
+
+}
+
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  left: 20%;
+  top: 8%;
+}
+
+#password_login {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  left: 20%;
+  top: 8%;
+}
+
+#pass_dim {
+  color: blue;
+  cursor: pointer;
+  position: relative;
+  left: 35%;
+  width: 35%;
+  font-weight: bold;
+
+}
+
+#pass_dim:hover {
+  text-decoration: underline;
+}
+
+#crea_account {
+  width: 40%;
+  background-color: darkgrey;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Almendra SC", serif;
+  font-size: 30px;
+  position: relative;
+  left: 30%;
+  top: 10%;
+
+}
+
+#crea_account:hover {
+  background-color: rgba(4, 4, 255, 0.774);
+
+}
+
+#linea_login {
+  border: 1px solid lightgray;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  top: 3%;
+}
+
+#error_login_view .errore {
+  display: flex;
+  position: absolute;
+  left: 22%;
+  top:90px;
+  z-index: 4;
+  color: red;
+  font-weight: bold;
+}
+
+#errore_php_login {
+  font-weight: bold;
+  font-family: "Almendra SC", serif;
+  display: flex;
+  color: red;
+  width: 20%;
+  position: absolute;
+  left: 68%;
+  top: 17%;
+  font-size: 25px;
+  z-index: 4;
+}

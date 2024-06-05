@@ -1,0 +1,110 @@
+body{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/664/888/desktop-wallpaper-backgrounds-gothic-group-with-80-items-background-gotik.jpg);
+    background-size:cover; /* Adatta l'immagine allo schermo */
+    background-repeat: no-repeat;
+    margin:0;
+    overflow-x: hidden;
+
+}
+
+
+#tastoHome{
+    font-family: "Almendra SC", serif;
+    position: relative;
+    top: 5px;
+    left:50%;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 0;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-radius: 9px;
+    border-color: white;
+}
+
+#tastoHome:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#testo h1{
+    color:white;
+    left:40%;
+    position: relative;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+#testo h2{
+    color:white;
+    left:42.5%;
+    bottom:20px;
+    position: relative;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#ricerca {
+    position: relative;
+    font-family: "Almendra SC", serif;
+    color: white;
+    width:20%;
+    left:43%;
+    top:50px;
+    height: 10%;
+}
+
+#ricerca h1{
+    position: relative;
+    left:20%;
+}
+#view_search img {
+    max-width: 100%;
+}
+
+#view_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    top:150px;
+    max-height: max-content;  
+}
+
+#view_search .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Almendra SC", serif;
+    font-weight: bold;
+    color: white;
+}
+
+.custom_class{
+    background-color:green;
+    color:white;
+    width:100%;
+    position: relative;
+    top:3px;
+    cursor: pointer;
+    display: flex;
+}
+.custom_class:hover{
+    background-color:seagreen;
+}
+
+ .hidden_class{
+    display:none;
+}
+
+
+

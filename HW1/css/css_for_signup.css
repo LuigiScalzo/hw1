@@ -1,0 +1,126 @@
+#body_signup {
+    margin: 0;
+    background-image: url(https://i.ytimg.com/vi/WZXCknubCAQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gQigsMA8=&rs=AOn4CLDap_EsD9j4K42Y6bWjLwyg_F7XMQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 60%;
+    
+}
+
+
+.form-field {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 90%;
+    padding: 10px 20px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: relative;
+    font-weight: bold;
+    font-family: "Almendra SC", serif;
+    color: white;
+    left: 35%;
+    top: 10%;
+    display: flex;
+    width: 30%;
+    font-size: 40px;
+}
+
+#bottoni {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    position: relative;
+}
+
+#bottone_login {
+    width: 27%;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Almendra SC", serif;
+    position: relative;
+    left: 34%;
+    top: 40%;
+    font-size: 30px;
+}
+
+#bottone_login:hover {
+    background-color: rgba(4, 4, 255, 0.774);
+  
+  }
+
+#bottone_registrati {
+    width: 23%;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Almendra SC", serif;
+    
+    position: relative;
+    left: 36.5%;
+    top: 5%;
+    font-size: 40px;
+}
+
+#bottone_registrati:hover {
+    background-color: rgba(4, 4, 255, 0.774);
+  
+  }
+
+  #linea_signup {
+    border: 1px solid lightgray;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    top: 20%;
+  }
+
+  /*#error_signup_view{
+    display: flex;
+    border: 2px solid red;
+    color:red;
+    width: 20%;
+  }*/
+
+  #signup_valido{
+    color:blue;
+    position: absolute;
+    display: flex;
+    width: 50%;
+  }
+
+   #error_signup_check{
+    display: flex;
+    position: relative;
+    color: red;
+    font-weight: bold;
+    font-size:25px;
+    bottom:480px;
+    left:60px;
+    width:13%;
+   }
